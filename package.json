@@ -1,0 +1,15 @@
+{
+  "name": "blaze",
+  "version": "1.0.0",
+  "description": "",
+  "main": "number.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^15.4.0"
+  }
+}
