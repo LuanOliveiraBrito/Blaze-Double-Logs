@@ -5,7 +5,6 @@ const fs = require('fs')
 class blaze {
 
     primeiro = true;
-    aposta = ''
 
     constructor() {
         this.executar()
@@ -38,9 +37,7 @@ class blaze {
                 return document.querySelector('div[id="roulette-timer"] > div').getAttribute('class')
             })
             if (check == 'progress-bar') {
-                if (!this.primeiro && this.aposta != 'nao') {
-                    await this.resultado(page)
-                }
+                if (!this.primeiro) await this.resultado(page)
                 await this.apostar(page)
             }
 
