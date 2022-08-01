@@ -10,4 +10,4 @@
 
 ## Descrição
 
-- Scrapping utilizando a biblioteca puppeteer para criar logs registrando as jogadas do jogo DOUBLE no site da blaze.com
+- Scrapping utilizando a biblioteca puppeteer para criar logs em um arquivo .TXT registrando todas as jogadas do game DOUBLE no site da blaze.com
